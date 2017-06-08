@@ -134,6 +134,39 @@ Wybierz poprawny sposob dodawania elementow (np. 5) na koncu wektora vector<int>
 + values.push_back(5);
 - values.pop_back(5);
  
+
+#Pytania Krzysiek
+
+Ktore z ponizszych zwroci najwieksza wartosc wiedzac ze:  std::string s("test");
+- s.length();
+- s.capacity();
++ s.max_size();
+- wszystkie zwroca te sama wartosc
+
+Kontenery sekwencyjne to:
+- array
+- vector
+- deque
++ wszystkie powyższe
+
+Kolejka deque:
+- posiada metode push_back ktora przesuwa wszystkie elementy na koniec i wstawia nowy na poczatek
++ umozliwia dodawanie oraz usuwanie elementow na poczatku i koncu kolejki w czasie stalym O(1)
+- posiada metode clear ktora zamienia na zera wszystkie elementy z kontenera
+- posiada metode insert ktora moze wstawic tylko jeden element do kontenera
+
+Set
+- to zbior ktory jest skonstruowany tak aby wyszukiwanie po pozycji bylo szybkie
+- elementy w zbiorze sa uporzadkowane od najwiekszego do najmniejszego
++ jest kontenerem asocjacyjnym w ktorym elementy sa kluczami
+- wartosci elementow nie sa unikalne
+
+Klasa pair
+- umozliwia potraktowanie dwoch wartosci jako pojedynczego elementu
+- jezeli funkcja ma zwracac dwie zmienne, warto wykorzystac do tego pare
+- typ pair zostal zadeklarowany nie jako klasa, ale jako struktura, z wszystkimiskladowymi jako publicznymi
++ wszystko powyzsze jest prawda
+
 #Rafał P
 W jezyku C++ dolaczamy  wskazany plik zrodlowy za pomoca dyrektywy:
 - #else
