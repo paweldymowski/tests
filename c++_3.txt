@@ -185,6 +185,38 @@ Jak uzyskac dostep do elementow skladowych wskaznika:
 - *
 - zadne z powyzszych
 
+#Pytania Krzysiek
+
+Funkcja inline:
+- funkcje rekurencyjne sa typowymy 'kandydatami' do optymalizacji inline
++ moze wykonywac sie szybciej niz zwykla funkcja
+- spowoduje wygenerowanie mniejszego programu
+- zadne z powyzszych nie jest prawdziwe
+
+Wskaz prawidlowa deklaracje wskaźnika na funkcje
+- int (*f1) (double);
+- void (*f2)(char*);
+- double* (*f3) (int, int);
++ wszystkie sa poprawne
+
+Ktore ze stwierdzen jest najpelniejsze:
+- Deklaracja funkcji to taki prototyp skladajacy sie z: typu zwracanego przez funkcje, nazwy funkcji, listy typow parametrow funkcji
+- Sygnatura funkcji sklada sie z nazwy i listy parametrow. Typ zwracany nie jest czescia sygnatury
+- Moga istniec dwie funkcje o tej samej nazwie
++ Wszystkie powyzsze stwierdzenia sa prawdziwe
+
+Wyrazenia lambda
+- funkcje te nie posiadaja ciala lecz posiadaja jedynie nazwy
+- argumenty wyrazenia lambda nadaje sie w nawiasach kwadratowych
++ typ zwracanej wartosci w wyrazeniu lambda okresla sie po symbolu strzalki ->
+- zapisy w ciele funkcji stworzonej przy pomocy wyrazenia lambda stosuje sie inne niz w zwyklych funkcjach C++
+
+l-value:
+- wszystkie stale const sa l-value
+- kazde r-value jest rownoczesnie l-value
++ okresla sie jako dowolny obiekt, ktory moze wystapic po lewej stronie instrukcji przypisania
+- wskaźnik nie moze pokazywac na obiekt l-value
+
 #Zestaw 3
 
 Parametrem konstruktora kopiujacego jest:
@@ -230,4 +262,3 @@ Funkcja czysto wirtualna to taka funkcja ktora:
 - nie ma deklaracji
 - nie przewiduje argumentow
 - wszystkie powyzsze odpowiedzi sa prawidłowe
-
