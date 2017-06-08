@@ -136,6 +136,39 @@ Operacje przypisania dokonujemy za pomoca znaku:
 - +
 - *
 
+#Pytania Krzysiek
+
+Unia
+- wielkosc unii zawsze jest rowna miejscu zajmowanemu przez najmniejszy obiekt znajdujacy sie w unii
+- jezeli unia zawiera np. obiekt typu int i double to mozemy uzywac wszystkich zmiennych naraz
++ unia jest to taka jakby struktura zawierajaca jedno miejsce w pamieci przeznaczone dla paru obiektow mogacych byc roznego typu
+- deklarujac unie zawierajaca 3 zmienne int przydzielamy jej miejsce o wielkosci 12 bajtow
+
+
+Ktore z ponizszych zdan jest falszywe
+- void to typ fundamentalny, nie moze byc obiektu typu void
+- void *p to wskaznik na obiekt nieznanego typu
+- void funkcja() – deklaracja mowiaca ze funkcja nie bedzie zwracala zadnej wartosci
++ zadne z powyzszych twierdzen nie jest prawdziwe
+
+extern int n;   to:
+- to definicja zmiennej;
+- to definicja i deklaracja informujaca kompilator ze zmienna juz istnieje w innym pliku
++ tylko deklaracja informujaca kompilator ze zmienna juz istnieje w innym zakresie
+- zadne z powyzszych 
+
+Ktore ze stwierdzen jest prawdziwe:
+- przeladowanie nie zmusza kompilatora do wybrania funkcji na podstawie parametrow
+- funkcja moze byc przeladowana tylko raz
++ funkcja zostanie przeladowana jezeli w danym zakresie istnieja dwie lub wiecej funkcji o tej samej nazwie, ale o roznych sygnaturach
+- zadna z powyzszych odpowiedzi nie jest prawdziwa
+
+asm to:
+- funkcja pozwalajaca nadac dodakowy alias do zmiennej
++ slowo kluczowe umozliwiajace wstawienie do kodu C/C++ wstawki kodu assemblerowego
+- funkcja z biblioteki <math.h> wyznaczajaca asymptoty funkcji podanej jako parametr
+- funkcja obliczjaca wartosc bezwzgledna argumentu
+
 #Rafał P
 
 W jezyku C++ znakiem "#" rozpoczynaja sie:
