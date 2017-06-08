@@ -133,7 +133,6 @@ Wybierz poprawny sposob dodawania elementow (np. 5) na koncu wektora vector<int>
 - values[i] = 5;
 + values.push_back(5);
 - values.pop_back(5);
- 
 
 #Pytania Krzysiek
 
