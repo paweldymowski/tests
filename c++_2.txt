@@ -133,6 +133,38 @@ Operator zakresu to:
 - "/"
 - "^"
 
+#Pytania Krzysiek
+
+Jezeli operator ^ to symetryczna roznica bitowa lub po prostu bitowe xor to prawdziwe jest:
+- 0 xor 1 = 0
+- 1 xor 0 = 0
+- 1 xor 1 = 1
++ dla wartosci 0 i 1 xor dziala dokladnie tak samo jak dodawanie modulo 2
+
+Bloki try...catch
+- sluza tylko do uodpornienia programu na dzialanie uzytkownika
+- do jednego bloku try nie moze byc kilku blokow catch
++ mozna zagniezdzac
+- blokow catch nie moze byc wiecej niz dziesiec
+
+Operator zasiegu
+- sluzy do odwolywania sie do skladowych z podklas
+- uzywamy gdy chcemy w klasie abstrakcyjnej odwolac sie do skladowej z klasy pochodnej
++ ma on postac ::
+- nie moze pomoc w dostaniu sie do przeslonietej zmiennej globalnej
+
+Jaka instrukcja mozemy sie wydostac z wielokrotnie zagniezdzonej petli?
+- continue
+- esceape
+- break
++ goto (etykieta_miejsca_skoku)
+
+Instrukcja switch(…)
+- sluzy do podejmowania decyzji wylacznie na podstawie wartosci jednej zmiennej
+- wybor jest dokonywany na podstawie wartosci liczby calkowitej
+- wybor jest dokonywany na podstawie kodu znaku ASCII
++ wszystkie powyzsze
+
 #Rafał P 
 Tablice dynamiczne to takie:
 - gdzie rozmiar tablicy jest staly
