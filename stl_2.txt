@@ -187,3 +187,34 @@ Aby sprawdzic czy mojVector jest pusty uzyjemy
 - myVector.erase()
 + myVector.empty()
 
+#Pytania Krzysiek
+
+vector::capacity
+- procedura sprawdzajaca pojemnosc pojedynczego elementu wektora
++ metoda zwracajaca maksymalna liczbe elementow jaka moze pomiescic kontener bez wykonywania realokacji pamieci
+- metoda systemowa zwracajaca dostepna pamiec do alokacji wektorow
+- zadna z powyzszych
+
+rend
+- zwraca iterator odwrotny wskazujacy na element wystepujacy bezposrednio przed pierwszym elementem
+- to metoda
+- w przypadku gdy kontener jest pusty to iteratory zwracane przez metody rend oraz rbegin sa sobie rowne
++ wszystkie powyzsze
+
+Kontenery asocjacyjne to:
+- stack, queue, priority_queue
+- array, vector, deque, list
++ set, multiset, map, multimap
+- unordered_set, unordered_multiset, unordered_map, unordered_multimap
+
+Krotki (ang. tuples)
+- wprowadzone jako rozszerzenie koncepcji par na dowolna liczbe elementow dowolnego typu
+- krotki reprezentuja niejednorodna liste elementow, ktorych typy sa okreslane albo wnioskowane na etapie kompilacji
+- mozna tworzyc przez deklaracje jawna albo niejawnie jako wartosc zwracana z funkcji pomocniczej make_tuple()
++ wszysko powyzsze jest prawda
+
+Klasy kontenerowe
+- nie moga byc uzywane wewnatrz innych klas kontenerowych
++ zarzadzaja kolekcjami elementow
+- we wszystkich kontenerach ma znaczenie uporzadkowanie elementow
+- wyszukiwanie elementow w kontenerach ma minimalnie zlozonosc liniowa
