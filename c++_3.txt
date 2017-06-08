@@ -102,6 +102,26 @@ Konstruktor sluzy do:
 - usuwania obiektu z pamieci
 - konstruowania metod
 
+#Rafał P
+
+Dyrektywy kompilacji warunkowej:
++ pozwalaja wybiorczo kompilowac fragmenty kodu zrodlowego
+- umozliwiaja deklaracje zmiennych roznych typow wspoldzielacych miejsce w pamieci
+- pozwalaja dokonac wyboru jednej z wielu zmiennych
+- warunkuja uzycie pamieci w czasie wykonywania programu
+
+Funkcja wszystkie potrzebne dane do wykonania powinna otrzymywac:
+- ze zmiennych globalnych
++ przez liste parametrow
+- przez deklaracje zmiennych lokalnych 
+- przez podanie adresu 
+
+W jezyku C++ jest mozliwosc deklarowania funkcji ktore posiadaja takie same nazwy ale maja rozne interfejsy. Sa to:
+- funkcje przeciazone
+- funkcje przeladowane
++ obie odpowiedzi sa prawidlowe
+- zadna odpowiedz nie jest prawidlowa
+
 #Magdalena B., pytania cpp zestaw 3
 
 Ktorego operatora nie mozna przeladowac?
