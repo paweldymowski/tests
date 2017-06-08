@@ -122,6 +122,40 @@ Wytlumacz roznice miedzy std::map a std::set:
 + std::map posiada klucz oraz wartosc, std::set posiada tylko klucz 
 - std::set posiada klucz oraz wartosc, std::map posiada tylko klucz
 
+
+
+#Pytania Krzysiek
+
+Iteratory odwrotne
+- automatycznie nie zamieniaja wywolania operatora inkrementacji w wywolanie operatora dekrementacji i odwrotnie
++ pozwalaja algorytmom przegladac kolekcje wstecz
+- nie naleza do nich iteratory rbegin() oraz rend()
+- nie ma czegos takiego jak iteratory odwrotne
+
+Mapy oraz multimapy
+- elementy nie sa automatycznie sortowane zgodnie z okreslonym kryterium
+- jedne i drugie dopuszczaja powtorzenia elementow
+- klucz nie musi byc porownywalny za pomoca kryterium sortowania
++ ich elementami sa pary klucz wartosc
+
+Niemodyfikujace Algorytmy STL to:
+- move(),replace(), transform(),swap_ranges()
++ find(), min_element(), max_element(), count()
+- fill(), generate()
+- unique(), reverse_copy
+
+Predykat
+- wszystkie predykaty sa bezargumentowe
++ jest specjalnym rodzajem funkcji pomocniczej dla algorytmow
+- kazda funkcja jedno- lub dwuargumentowa jest poprawnym predykatem jezeli zwraca boola
+- to funkcje, ktore w trakcie wywolania modyfikuja swoj wewnetrzny stan
+
+Algorytmy STL
+- sa funkcjami skladowymi klas kontenerowych
++ sa funkcjami globalnymi operujacymi na iteratorach
+- kazdy algorytmy implementowany jest osobno dla kazdego typu kontenerowego
+- algorytmy STL nie moga operowac na elementach roznych typow kontenerowych
+
 # Damian Cz., pytania STL zestaw 3
 
 Czy jako kontenery mozemy wykorzystywac zwykle tablice?
